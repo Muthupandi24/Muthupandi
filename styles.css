@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaecef;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: linear-gradient(to right, #FF5733, #FFC300);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FAD02E;
+}
+
+section {
+    padding: 30px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #FF5733; /* Primary heading color */
+    border-bottom: 3px solid #FF5733;
+    padding-bottom: 10px;
+}
+
+/* More colorful styles for projects and lists */
+.project {
+    margin: 15px 0;
+    padding: 15px;
+    border: 2px solid #FFC300; /* Yellow border */
+    border-radius: 5px;
+    background: #fff3e6; /* Light background for projects */
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    border: 2px dashed #FF5733; /* Dotted border for file upload */
+    background: #fff5e6; /* Light background for the file upload input */
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.resume-button {
+    background-color: #007bff; /* Blue resume button */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
